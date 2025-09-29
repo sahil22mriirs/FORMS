@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html> <head>
+<title> forms in html </title></head>
+<form>
+<fieldset>
+<legend><b>Ener User Personal Information</b></legend>
+
+<legend><b>Enter Your First Name</b></legend>
+<input type="text" name="full name"><br><br>
+
+<legend><b>Enter Your Last Name</b></legend>
+<input type="text" name="Last name"><br><br>
+
+<legend><b>Enter Email</b></legend>
+<input type="email" name="email"><br><br>
+
+<legend><b>Enter Password</b></legend>
+<input type="password" name="password"><br><br>
+
+<legend><b>Confirm Password</b></legend>
+<input type="password" name="password"><br><br>
+
+<label for="dob"><b>Enter your Date of Birth:</b></label><br>
+<input type="date" id="dob" name="dob" required><br><br>
+
+<p><b>Choose Your Gender:</b></p>
+<input type="radio" id="Male" name="Gender" value="Male">
+<label for="Male">Male</label>
+<input type="radio" id="Female" name="Gender" value="Female">
+<label for="Female">Female</label>
+<input type="radio" id="Other" name="Gender" value="Other">
+<label for="Other">Other</label><br><br>
+
+<label for="address"><b>Enter your Description:</b></label><br>
+<textarea id="discription" name="discription" rows="4" cols="50" required></textarea><br><br>
+
+<label for="Language"><b>Choose a language:</b></label><br>
+<select id="language" name="Language" size="2" multiple>
+<option value="English">English</option>
+<option value="Spanish">Spanish</option>
+<option value="Hindi">Hindi</option>
+<option value="Arabic">Arabic</option>
+</select><br><br>
+
+<label for="file"><b>Please upload your photograph:</b></label><br>
+<input type="file" id="file" name="file"><br><br>
+
+<label for="duration"><b>Duration of Undergraduate Degree:</b></label><br>
+<input type="range" id="duration" name="duration" min="1" max="10" value="4">
+<span id="duration_value">2 Years</span><br><br>
+<input type="submit" value="Submit"><br><br>
+
+<a href="www.google.com" target="_blank">google homepage</a>
+
+<style>
+a:link {
+color: green;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:visited {
+color: pink;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active {
+color: yellow;
+background-color: transparent;
+text-decoration: underline;
+}
+</style>
+</fieldset>
+</form>
+</html>
